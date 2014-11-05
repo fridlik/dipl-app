@@ -12,7 +12,7 @@ gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-# gem 'therubyracer',  platforms: :ruby
+gem 'therubyracer',  platforms: :ruby
 
 # Scaffold for haml
 gem 'haml-rails'
@@ -39,9 +39,9 @@ gem 'spring',        group: :development
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
-  gem 'debugger'
+  #gem 'debugger'
   gem 'rspec-rails'
-  gem 'better_errors'
-  gem 'binding_of_caller'
+  #gem 'better_errors'
+  #gem 'binding_of_caller'
 end
 
